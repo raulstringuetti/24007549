@@ -293,11 +293,11 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int notas1, notas10, notas50, notas100;
+    int moedas1, notas10, notas50, notas100;
     int total;
 
     // Solicita a quantidade de notas de cada valor
-    printf("Digite a quantidade de notas de 1 real: ");
+    printf("Digite a quantidade de moedas de 1 real: ");
     scanf("%d", &notas1);
 
     printf("Digite a quantidade de notas de 10 reais: ");
@@ -310,7 +310,7 @@ int main() {
     scanf("%d", &notas100);
 
     // Calcula o valor total
-    total = (notas1 * 1) + (notas10 * 10) + (notas50 * 50) + (notas100 * 100);
+    total = (moedas1 * 1) + (notas10 * 10) + (notas50 * 50) + (notas100 * 100);
 
     // Imprime o valor total
     printf("O valor total em dinheiro é R$ %d\n", total);
